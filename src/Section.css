@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:wght@400;700&family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+.section{
+    display: flex;
+ 
+}
+
+.Section__left__image{
+    display:flex;
+    margin: 0 auto;
+    
+}
+.Section__right{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    
+}
+
+.Section__heading{
+    padding: 0em 0;
+    font-family: 'Noticia Text', serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+.Section__heading span{
+    text-decoration: underline;
+}
+
+.section__right__image{
+    width: 25%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.section__headline{
+    margin: 0 auto;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.section__sign{
+    margin: 0 auto;
+    
+    transform: rotate(-7deg);
+    font-size: 21px;
+    font-family: 'Sacramento', cursive;
+    
+}
+
+@media (max-width:786px){
+    .section{
+        flex-direction: column;
+    }
+    .section__right__image{
+        width: 50%;
+        
+    }
+    .Section__left__image{
+        width: 100%;
+    }
+}

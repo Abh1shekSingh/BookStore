@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:wght@400;700&family=Nunito+Sans:wght@300&display=swap');
+
+.awards{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.award{
+    width: 20vw;
+    display: flex;
+    flex-direction:row;
+    margin-left: 10em;
+    margin-top: 2em;
+    
+}
+
+@media (max-width:786px){
+    .award{
+        width: 60vw;
+        margin-left: 0;
+        margin-top: 2em;
+    }
+}
+

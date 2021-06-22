@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:wght@400;700&family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+.contact__div{
+    margin: 0 2em;
+    background-color: white;
+   height: 76vh;
+   border-width: 2em;
+   border-color: #333;
+   border-style: solid;
+   text-align: center;
+   padding: 2em;
+}
+
+.contact__heading p{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.contact__heading h1{
+    font-family: 'Noticia Text', serif;
+}
+
+.contact__number{
+    margin: 4em auto;
+    font-size: 35px;
+}
+
+.contact__social{
+    display: flex;
+    justify-content: center;
+    margin-right: 1em;
+}
+
+.contact__social p{
+    margin-left: 2em;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media (max-width:786px){
+    .contact__number{
+        font-size:20px ;
+        margin-top: 5em;
+    }
+    .contact__social p{
+        font-size: 15px;
+        margin-right: 1em;
+    }
+    .contact__social{
+        margin-right: 1em;
+        margin-top: 10em;
+    }
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:wght@400;700&family=Nunito+Sans:wght@300&display=swap');
+
+.header{
+    background-color: white;
+    min-height:60px;
+}
+
+.header__logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noticia Text', serif;
+    padding: 2em ;
+    font-size: 10px;
+    color: #333;
+}
+
+.header__option{
+    display:flex ;
+    color: #666;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    padding-bottom: 1em; 
+}
+
+.header__option p{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+

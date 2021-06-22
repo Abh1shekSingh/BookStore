@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:wght@400;700&family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.books{
+    display: flex;
+   
+    
+}
+.book__heading{
+    display: flex;
+    justify-content: center;
+    padding: 5em;
+    font-family: 'Noticia Text', serif;
+}
+
+.book__image{
+    width:20vw;
+    margin-top: 2em;
+}
+
+.book__info{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    transition: 1s;
+    
+}
+
+.book__info:hover{
+    transform: scale(1.02);
+}
+
+.book__name{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    margin: 15px 0 2px 0;
+}
+
+.book__price{
+    margin-bottom: 12px;
+}
+
+
+
+@media (max-width:786px) {
+    .book__image{
+        width: 100%;
+    }
+}
