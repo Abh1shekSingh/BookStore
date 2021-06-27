@@ -9,7 +9,9 @@ function Home() {
         <div>
             <Section/>
             <div className="book__heading">
+                <img className="khanda__logo" src="./images/khanda.png" alt=""/>
                 <h1>Manjit Singh'S Top Rated Books</h1>
+                <img className="khanda__logo" src="./images/khanda.png" alt=""/>
             </div>
             <div className="book__row1">
                 <Books 

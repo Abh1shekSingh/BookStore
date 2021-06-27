@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Contact.css"
-
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 function Contact() {
     return (
         <div className="contact">
@@ -10,8 +10,13 @@ function Contact() {
                     <p>Contact Us</p>
                 </div>
                 <div className="contact__number">
-                <h1>98156-26658</h1>
                 
+                <div className="whatsapp__icon"><WhatsAppIcon/></div>
+
+                
+                <h1>98156-26658</h1>
+                <div className="whatsapp__icon2"><WhatsAppIcon/></div>
+
                 <h1>97790-49172</h1>
                 </div>
                 <div className="contact__social">

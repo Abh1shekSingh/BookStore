@@ -9,7 +9,8 @@ function About() {
                 <img className="client__image" src="./images/Client_img.jpg" alt="client_image"/>
            </div>
            <div className="about__text">
-                <h2>SatShriAkal Ji ! <br></br><br></br><span>  I am Manjit Singh Tanda, a Historic Book Author. I wrote books about the bravery & Historic moments of sikhs. My work is being Loved all over the country. Approximately <em><u>1000 of Copies</u></em> has been sold in India as well as In Other Countries. <br></br><br></br> Also want to say that, If you ant to buy my book, and want to know about the history and the culture of sikhs You can call on the number given below.</span></h2>
+                <h2>Sat Shri Akal Ji ! <br></br><br></br><span>  I am Manjit Singh Tanda, a Historic Book Author. I wrote books about the Sikhs bravery & Lubana Historic moments of sikhs. My work is being Loved all over the world. Approximately <em><u>5000 of Copies</u></em> has been sold in India as well as In Other Countries. <br></br><br></br> Also want to say that, If you want to buy my books, and want to know about the history and the culture of sikhs You can call on the number given below.</span></h2>
+            <img className="khanda" src="./images/khanda.png" alt=""/>
            </div>
 
            

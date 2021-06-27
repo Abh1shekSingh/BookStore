@@ -12,7 +12,11 @@
     flex-direction:row;
     margin-left: 10em;
     margin-top: 2em;
-    
+    transition: 1.0s;
+}
+
+.award:hover{
+    transform: scale(1.02);
 }
 
 @media (max-width:786px){

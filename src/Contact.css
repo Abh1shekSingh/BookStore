@@ -38,6 +38,18 @@
     font-size: 20px;
     cursor: pointer;
 }
+.whatsapp__icon{
+    position: absolute;
+    transform: scale(2.5);
+    left: 34%;
+    top: 54%;
+}
+.whatsapp__icon2{
+    position: absolute;
+    transform: scale(2.5);
+    left: 34%;
+    top: 65%;
+}
 
 @media (max-width:786px){
     .contact__number{
@@ -51,5 +63,17 @@
     .contact__social{
         margin-right: 1em;
         margin-top: 10em;
+    }
+    .whatsapp__icon{
+        position: absolute;
+        transform: scale(1.5);
+        left: 18%;
+        top: 54%;
+    }
+    .whatsapp__icon2{
+        position: absolute;
+        transform: scale(1.5);
+        left: 18%;
+        top: 61%;
     }
 }

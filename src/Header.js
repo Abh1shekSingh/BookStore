@@ -9,7 +9,9 @@ function Header() {
             <div className="header">
                 <Link to="/" style={{ textDecoration: 'none'}}>
                     <div className="header__logo">
+                        <img className="ikonkar__logo" src="./images/ikonkar.png" alt=""/>
                         <h1>Historian Manjit Singh Tanda</h1>
+                        <img className="ikonkar__logo" src="./images/ikonkar.png" alt=""/>
                     </div>
                 </Link>
                 

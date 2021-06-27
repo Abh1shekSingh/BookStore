@@ -29,3 +29,15 @@
     margin-right: 15px;
 }
 
+.ikonkar__logo{
+    width: 2%;
+    margin: 0 21px;
+}
+
+@media (max-width:786px){
+    .ikonkar__logo{
+        width: 8%;
+        margin: 0 8px;
+    }
+}
+

@@ -32,6 +32,15 @@
     display: flex;
 }
 
+.khanda{
+    position: absolute;
+    top: 7em;
+    width: 35%;
+    left: 57%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
 @media (max-width:786px){
     .about{
         flex-direction: column;
@@ -54,5 +63,13 @@
     .Award{
         display: flex;
         flex-direction: column;
+    }
+    .khanda{
+        position: absolute;
+        top: 70%;
+        width: 80%;
+        left: 10%;
+        z-index: -1;
+        opacity: 0.2;
     }
 }

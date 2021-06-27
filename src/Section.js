@@ -8,7 +8,7 @@ function Section() {
             </div>
             <div className="Section__right">
                 <h1 className="Section__heading"><span>Historian</span> <br></br>Manjit Singh Tanda</h1>   
-                <p className="section__headline">Author of Best Selling Historic Books</p>
+                <p className="section__headline">Author of Best Selling Sikh Historic & Lubana Historic Books</p>
                 <img className="section__right__image" src="./images/Client.jpeg" alt="Client_Inage"/>   
                 <div className="section__sign">
                     <p>Manjit Singh</p>
