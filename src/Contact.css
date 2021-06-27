@@ -53,11 +53,11 @@
 
 @media (max-width:786px){
     .contact__number{
-        font-size:20px ;
+        font-size:12px ;
         margin-top: 5em;
     }
     .contact__social p{
-        font-size: 15px;
+        font-size: 12px;
         margin-right: 1em;
     }
     .contact__social{
@@ -66,14 +66,14 @@
     }
     .whatsapp__icon{
         position: absolute;
-        transform: scale(1.5);
-        left: 18%;
-        top: 54%;
+        transform: scale(1);
+        left: 23%;
+        top: 57%;
     }
     .whatsapp__icon2{
         position: absolute;
-        transform: scale(1.5);
-        left: 18%;
+        transform: scale(1);
+        left: 23%;
         top: 61%;
     }
 }
