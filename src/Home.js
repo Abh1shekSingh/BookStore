@@ -22,7 +22,7 @@ function Home() {
                 <Books 
                     image = "./images/2nd.jpeg"
                     title = "Bhai Makhan Shah Lubana"
-                    price = "300"
+                    price = "150"
                 />
                 <Books 
                     image = "./images/3rd.jpeg"
@@ -40,7 +40,7 @@ function Home() {
                 <Books 
                     image = "./images/5th.jpeg"
                     title = "Baba Prem Singh Ji Muraale Waale"
-                    price = "100"
+                    price = "150"
                 />
                 <Books 
                     image = "./images/6th.jpeg"
@@ -58,7 +58,7 @@ function Home() {
                 <Books 
                     image = "./images/8th.jpeg"
                     title = "Baba Hasna Ji 'Bhagtana'"
-                    price = "150"
+                    price = "100"
                 />
                 
             </div>
