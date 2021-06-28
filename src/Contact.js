@@ -20,9 +20,9 @@ function Contact() {
                 <h1>97790-49172</h1>
                 </div>
                 <div className="contact__social">
-                    <p>Instagram</p>
-                    <p>Facebook</p>
-                    <p>Gmail</p>
+                    <p href="https://www.instagram.com/invites/contact/?i=17cr5er0dyyrs&utm_content=hvpx0p">Instagram</p>
+                    <p href="https://www.facebook.com/charanjit.singh.560">Facebook</p>
+                    <p href="mailto:chann0001@gmail.com">Gmail</p>
                 </div>
             </div>
            
